@@ -1,4 +1,78 @@
-body {
-  color: green; }
+* {
+ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=maps/main.css.map */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header .menu {
+  float:left;
+  width:100%;
+
+
+  border: solid 1px black;
+}
+
+.Cursuri,.galerie_foto,.menu p{
+  float:left;
+  width:auto;
+}
+
+.menu .contact {
+  display: inline-block;
+  float: right;
+  border: solid 1px black;
+  padding: 1px;
+  margin: 1px;
+
+}
+
+.menu .galerie_foto {
+  border: solid 1px black;
+  padding: 1px;
+  margin: 1px;
+}
+
+.menu .Cursuri {
+  border: solid 1px black;
+  padding: 1px;
+  margin: 1px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.Cursuri ul{display: none;}
+
+.menu p {
+  border: solid 1px black;
+  padding: 1px;
+  margin: 1px;
+
+}
+
+
+header {
+  background: aquamarine;
+  display: block;
+  border: solid 2px cornflowerblue;
+  margin: 1px;
+  padding: 1px;
+
+}
+
+section {
+  background: mediumturquoise;
+  border: solid 2px blueviolet;
+  margin: 1px;
+  padding: 1px;
+}
+
+footer {
+  background: cadetblue;
+  border: solid 2px deepskyblue;
+  margin: 1px;
+  padding: 1px;
+}
